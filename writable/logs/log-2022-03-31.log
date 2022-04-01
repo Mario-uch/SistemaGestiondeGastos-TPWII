@@ -1,0 +1,406 @@
+CRITICAL - 2022-03-31 17:04:46 --> Undefined array key "monto"
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-31 17:09:01 --> Duplicate entry '9837' for key 'PRIMARY'
+CRITICAL - 2022-03-31 17:09:01 --> Duplicate entry '9837' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-31 17:24:25 --> Duplicate entry '97367' for key 'PRIMARY'
+CRITICAL - 2022-03-31 17:24:25 --> Duplicate entry '97367' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-31 17:47:31 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 17:55:14 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 18:19:33 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 18:30:36 --> Undefined variable $gastos
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 18:46:30 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:01:31 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:18:33 --> Undefined variable $datos
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:44:41 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:44:51 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:45:56 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:51:11 --> Undefined variable $fecha
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:57:38 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:59:17 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 19:59:30 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\formulario.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(33): view('formulario', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->ingresar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 20:00:35 --> Duplicate entry '8373' for key 'PRIMARY'
+CRITICAL - 2022-03-31 20:00:35 --> Duplicate entry '8373' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-31 20:01:55 --> Duplicate entry '74983' for key 'PRIMARY'
+CRITICAL - 2022-03-31 20:01:55 --> Duplicate entry '74983' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-31 20:02:15 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(46): view('tablas', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 20:04:51 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(46): view('tablas', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-31 20:06:37 --> Duplicate entry '9999' for key 'PRIMARY'
+CRITICAL - 2022-03-31 20:06:37 --> Duplicate entry '9999' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ge...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-31 20:06:55 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(46): view('tablas', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 20:12:22 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(46): view('tablas', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 20:20:51 --> Undefined array key "fecha"
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->aver()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 20:37:12 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->buscar()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 20:54:33 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->buscar()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 20:59:23 --> Undefined array key "nombre"
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->buscar()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:06:12 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\form_editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('form_editar', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(62): view('form_editar')
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->buscar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 21:10:10 --> Undefined variable $fecha
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\form_editar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('form_editar', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(62): view('form_editar')
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->buscar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 21:14:59 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(85): view('tablas')
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->editar()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 21:16:03 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php on line 71
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(71): view('tablas', NULL)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->tabla()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:16:23 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php on line 71
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(71): view('tablas', NULL)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->tabla()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 21:37:09 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\GestionDeGastos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\GestionDeGastos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-31 21:37:40 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\GestionDeGastos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\GestionDeGastos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-31 22:01:05 --> Duplicate entry 'josue' for key 'PRIMARY'
+CRITICAL - 2022-03-31 22:01:05 --> Duplicate entry 'josue' for key 'PRIMARY'
+#0 C:\xampp\htdocs\GestionDeGastos\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\GestionDeGastos\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\GestionDeGastos\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\GestionDeGastos\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\GestionDeGastos\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(23): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertar()
+#9 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-31 22:11:23 --> Undefined variable $monto
+#0 C:\xampp\htdocs\GestionDeGastos\app\Views\tablas.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\GestionDeGastos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\GestionDeGastos\system\Common.php(1089): CodeIgniter\View\View->render('tablas', Array, true)
+#4 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(46): view('tablas', Array)
+#5 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->insertarGastos()
+#6 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-31 22:19:37 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php on line 71
+#0 C:\xampp\htdocs\GestionDeGastos\app\Controllers\Home.php(71): view('tablas', NULL)
+#1 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(832): App\Controllers\Home->tabla()
+#2 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\GestionDeGastos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\GestionDeGastos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
